@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500;1,700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: azure;
+}
+
+#result {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#calcTemp {
+    padding: 29px 67px;
+    min-height: 290px;
+    background-color: #6eb7f3;
+    box-shadow: rgb(243, 107, 107) 0px 1px 3px, rgb(249, 111, 111) 0px 1px 2px;
+}
+
+.container h1 {
+    color: green;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.converter-row {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 56, 0);
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+
+#tempinput {
+    font-display: flex;
+    font-size: 17px;
+}
+
+#initialtemp {
+    font-size: 17px;
+}
+
+.btn {
+    font-size: 17px;
+}
